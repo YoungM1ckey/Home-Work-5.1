@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+</head>
+<body>
+  <form action="https://fom.in.ua/echo" method="post" autocomplete="off">
+    <div>
+      <div>
+        <a href="#">
+          Login
+        </a>
+        <a href="registration.html">
+          Register
+        </a>
+      </div>
+      <p>
+        Enter your email and password to register.
+      </p>
+      <div>
+        <input
+          type="text"
+          name="username"
+          placeholder="Username"
+          required >
+        <br>
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="Enter your email address" >
+        <br>
+        <input 
+          type="password"
+          name="password"
+          placeholder="Password"
+          minlength="8"
+          required >
+        <br>
+        <input 
+          id="password-check"
+          name="password-check"
+          type="password"
+          placeholder="Confirm Password"
+          title=""
+          required >
+        <br>
+        <button type="submit">
+          Register
+        </button>
+      </div>
+    </div>
+  </form>
+  <p>
+    Or register with
+  </p>
+  <div>
+    <a href="#">
+      <img src="../img/googleicn.jpg" alt="google-icn">
+      Continue with Google
+    </a>
+    <br>
+    <a href="#">
+      <img src="../img/facebookicn.jpg" alt="facebook-icn">
+      Continue with Facebook
+    </a>
+  </div>
+</body>
+</html>
