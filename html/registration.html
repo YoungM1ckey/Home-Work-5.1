@@ -10,37 +10,37 @@
   <form action="https://fom.in.ua/echo" method="post" autocomplete="off">
     <div>
       <div>
-        <a href="#">
+        <a class="link-head" href="#">
           Login
         </a>
-        <a href="registration.html">
+        <a class="link-head active-link" href="registration.html">
           Register
         </a>
       </div>
-      <p>
+      <p class="text-reg">
         Enter your email and password to register.
       </p>
       <div>
-        <input
+        <input class="input"
           type="text"
           name="username"
           placeholder="Username"
           required >
         <br>
-        <input
+        <input class="input"
           type="email"
           name="email"
           required
           placeholder="Enter your email address" >
         <br>
-        <input 
+        <input class="input" 
           type="password"
           name="password"
           placeholder="Password"
           minlength="8"
           required >
         <br>
-        <input 
+        <input class="input" 
           id="password-check"
           name="password-check"
           type="password"
@@ -48,22 +48,23 @@
           title=""
           required >
         <br>
-        <button type="submit">
+        <button 
+          type="submit" class="btn-reg">
           Register
         </button>
       </div>
     </div>
   </form>
-  <p>
+  <p class="text-reg">
     Or register with
   </p>
   <div>
-    <a href="#">
+    <a class="link-log" href="#">
       <img src="../img/googleicn.jpg" alt="google-icn">
       Continue with Google
     </a>
     <br>
-    <a href="#">
+    <a class="link-log" href="#">
       <img src="../img/facebookicn.jpg" alt="facebook-icn">
       Continue with Facebook
     </a>
